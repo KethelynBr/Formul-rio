@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.FullCenter{
+    background-color: yellowgreen;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#formulario{
+    background-color: aqua;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
