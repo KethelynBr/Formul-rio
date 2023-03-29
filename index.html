@@ -16,7 +16,7 @@
             <h1>CADASTRO</h1>
             <form>
                 <label for="name"> Nome:</label>
-                <input type="text" id="name" placeholder="Nome">
+                <input type="text" id="name" placeholder="Nome" class="textfield">
 
                 <label for="colorpicker">Cor favorita:</label>
                 <input type="color" id="colorpicker">
@@ -28,9 +28,9 @@
                 <input type="time" id="hrnascimento">
                 
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="aaa@bbb.com">
+                <input type="email" id="email" placeholder="aaa@bbb.com" class="textfield">
                 <label for="confemail">Confirme o e-mail:</label>
-                <input type="email" id="confemail" placeholder="aaa@bbb.com">
+                <input type="email" id="confemail" placeholder="aaa@bbb.com" class="textfield">
 
                 <label for="doc">Faça upload do documento:</label>
                 <input type="file" id="doc" accept=".pdf">
@@ -41,12 +41,12 @@
                 <input type="image" id="image">
 
                 <label for="telefone">Telefone:</label>
-                <input type="number" id="telefone" placeholder="(11)9999-9999">
+                <input type="number" id="telefone" placeholder="(11)9999-9999" class="textfield">
 
                 <label for="pass">Senha:</label>
-                <input type="password" id="pass">
+                <input type="password" id="pass" class="textfield">
                 <label for="confpass">Confirme a senha:</label>
-                <input type="password" id="confpass">
+                <input type="password" id="confpass" class="textfield">
 
                 <label for="sexo">Sexo:</label>
 
@@ -62,13 +62,14 @@
                 <label for="satisfação">Satisfação</label>
                 <input type="range" id="satisfação">
 
-                <input type="checkbox" id="agree" value="y">
-                <label for="agree">Concordo com os termos</label>
                 <input type="checkbox" id="agreep" value="y">
-                <label for="agree">Concordo com as políticas</label>
+                <label for="agree">Concordo com os termos</label><br>
 
-                <input type="reset" value="Limpar">
-                <button>Enviar</button>
+                <input type="checkbox" id="disagree" value="n">
+                <label for="disagree">Não concordo com os termos</label><br>
+
+                <input type="reset" value="Limpar" class="whiteButton">
+                <button class="whiteButton" type="button">Enviar</button>
            </form>
     
         </div>      
